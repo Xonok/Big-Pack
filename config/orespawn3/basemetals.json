@@ -1,0 +1,446 @@
+{
+	"version": "2.0",
+	"spawns": {
+		"coldiron_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				-1
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 5,
+				"minHeight": 0,
+				"maxHeight": 128
+			},
+			"blocks": [
+				{
+					"name": "basemetals:coldiron_ore",
+					"chance": 100
+				}
+			]
+		},
+		"adamantine_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				-1
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 2,
+				"minHeight": 0,
+				"maxHeight": 128
+			},
+			"blocks": [
+				{
+					"name": "basemetals:adamantine_ore",
+					"chance": 100
+				}
+			]
+		},
+		"starsteel_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				1
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 5,
+				"minHeight": 0,
+				"maxHeight": 255
+			},
+			"blocks": [
+				{
+					"name": "basemetals:starsteel_ore",
+					"chance": 100
+				}
+			]
+		},
+		"copper_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 25,
+				"minHeight": 49,
+				"maxHeight": 112
+			},
+			"blocks": [
+				{
+					"name": "basemetals:copper_ore",
+					"chance": 100
+				}
+			]
+		},
+		"copper_extra": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 20,
+				"minHeight": 81,
+				"maxHeight": 96
+			},
+			"blocks": [
+				{
+					"name": "basemetals:copper_ore",
+					"chance": 100
+				}
+			]
+		},
+		"silver_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": ["hot"]
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 15,
+				"minHeight": 90,
+				"maxHeight": 160
+			},
+			"blocks": [
+				{
+					"name": "basemetals:silver_ore",
+					"chance": 100
+				}
+			]
+		},
+		"silver_twilight": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [7],
+			"biomes": {},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 15,
+				"minHeight": 0,
+				"maxHeight": 32
+			},
+			"blocks": [
+				{
+					"name": "basemetals:silver_ore",
+					"chance": 100
+				}
+			]
+		},
+		"tin_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 6,
+				"variation": 3,
+				"frequency": 15,
+				"minHeight": 81,
+				"maxHeight": 128
+			},
+			"blocks": [
+				{
+					"name": "basemetals:tin_ore",
+					"chance": 100
+				}
+			]
+		},
+		"tin_extra": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 6,
+				"variation": 3,
+				"frequency": 5,
+				"minHeight": 97,
+				"maxHeight": 112
+			},
+			"blocks": [
+				{
+					"name": "basemetals:tin_ore",
+					"chance": 100
+				}
+			]
+		},
+		"tin_twilight": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [7],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 6,
+				"variation": 3,
+				"frequency": 5,
+				"minHeight": 0,
+				"maxHeight": 32
+			},
+			"blocks": [
+				{
+					"name": "basemetals:tin_ore",
+					"chance": 100
+				}
+			]
+		},
+		"lead_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 20,
+				"minHeight": 33,
+				"maxHeight": 80
+			},
+			"blocks": [
+				{
+					"name": "basemetals:lead_ore",
+					"chance": 100
+				}
+			]
+		},
+		"lead_extra": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 2.5,
+				"minHeight": 49,
+				"maxHeight": 64
+			},
+			"blocks": [
+				{
+					"name": "basemetals:lead_ore",
+					"chance": 100
+				}
+			]
+		},
+		"zinc_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 2.5,
+				"minHeight": 33,
+				"maxHeight": 64
+			},
+			"blocks": [
+				{
+					"name": "basemetals:zinc_ore",
+					"chance": 100
+				}
+			]
+		},
+		"mercury_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 1.5,
+				"minHeight": 0,
+				"maxHeight": 32
+			},
+			"blocks": [
+				{
+					"name": "basemetals:mercury_ore",
+					"chance": 100
+				}
+			]
+		},
+		"mercury_twilight": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [7],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 1.5,
+				"minHeight": 0,
+				"maxHeight": 32
+			},
+			"blocks": [
+				{
+					"name": "basemetals:mercury_ore",
+					"chance": 100
+				}
+			]
+		},
+		"nickel_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 1,
+				"minHeight": 17,
+				"maxHeight": 48
+			},
+			"blocks": [
+				{
+					"name": "basemetals:nickel_ore",
+					"chance": 100
+				}
+			]
+		},
+		"platinum_ore": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 0.125,
+				"minHeight": 0,
+				"maxHeight": 96
+			},
+			"blocks": [
+				{
+					"name": "basemetals:platinum_ore",
+					"chance": 100
+				}
+			]
+		},
+		"platinum_extra": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 20,
+				"minHeight": 130,
+				"maxHeight": 160
+			},
+			"blocks": [
+				{
+					"name": "basemetals:platinum_ore",
+					"chance": 100
+				}
+			]
+		},
+		"platinum_twilight": {
+			"retrogen": true,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [7],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 4,
+				"frequency": 2,
+				"minHeight": 0,
+				"maxHeight": 32
+			},
+			"blocks": [
+				{
+					"name": "basemetals:platinum_ore",
+					"chance": 100
+				}
+			]
+		}
+	}
+}

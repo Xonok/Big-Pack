@@ -1,0 +1,9 @@
+{
+   "default": [ { "name": "minecraft:stone" },
+				{ "name": "minecraft:cobblestone" },
+	            { "name": "minecraft:andesite" },
+				{ "name": "minecraft:diorite" },
+				{ "name": "minecraft:granite" },
+				{ "name": "minecraft:netherrack" },
+				{ "name": "minecraft:end_stone" } ]
+}

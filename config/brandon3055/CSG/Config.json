@@ -1,0 +1,9 @@
+{
+  "inventory": {},
+  "kits": {
+    "starter": {
+      "0:0": "flintmod:knife_flint",
+      "0:1": "minecraft:bread,8"
+    }
+  }
+}
