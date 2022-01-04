@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "XonokMe",
+      "uniqueId": "44fa466f-01b0-4798-bfeb-bda740471d67"
+    },
+    "time": 1641298955322,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/BKzFJdAf96"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XonokMe",
+      "uniqueId": "44fa466f-01b0-4798-bfeb-bda740471d67"
+    },
+    "time": 1641298273323,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/e7v00ek01M"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XonokMe",
+      "uniqueId": "44fa466f-01b0-4798-bfeb-bda740471d67"
+    },
+    "time": 1641297754500,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://sparkprofiler.github.io/#MzbZLnnkx5"
+    }
+  }
+]
