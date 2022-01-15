@@ -46,31 +46,6 @@ recipes.addShapeless(<basemetals:pewter_blend>,[<ore:ingotTin>,<ore:ingotCopper>
 recipes.addShapeless(<basemetals:aquarium_blend>,[<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotZinc>,<minecraft:prismarine_crystals>]);
 recipes.addShapeless(<basemetals:mithril_blend>,[<ore:ingotSilver>,<basemetals:coldiron_ingot>,<ore:ingotMercury>]);
 
-//For consistency, all ingots can now be crafted into dusts. Disabled to attempt a different approach.
-//recipes.addShapeless(<basemetals:obsidian_ingot>, [<basemetals:obsidian_powder>]);
-//recipes.addShapeless(<minecraft:redstone>, [<basemetals:redstone_ingot>]);
-//recipes.addShapeless(<basemetals:antimony_powder>, [<basemetals:antimony_ingot>]);
-//recipes.addShapeless(<basemetals:bismuth_powder>, [<basemetals:bismuth_ingot>]);
-//recipes.addShapeless(<basemetals:copper_powder>, [<basemetals:copper_ingot>]);
-//recipes.addShapeless(<basemetals:lead_powder>, [<basemetals:lead_ingot>]);
-//recipes.addShapeless(<basemetals:nickel_powder>, [<basemetals:nickel_ingot>]);
-//recipes.addShapeless(<basemetals:silver_powder>, [<basemetals:silver_ingot>]);
-//recipes.addShapeless(<basemetals:tin_powder>, [<basemetals:tin_ingot>]);
-//recipes.addShapeless(<basemetals:zinc_powder>, [<basemetals:zinc_ingot>]);
-//recipes.addShapeless(<basemetals:brass_blend>, [<basemetals:brass_ingot>]);
-//recipes.addShapeless(<basemetals:bronze_blend>, [<basemetals:bronze_ingot>]);
-//recipes.addShapeless(<basemetals:cupronickel_blend>, [<basemetals:cupronickel_ingot>]);
-//recipes.addShapeless(<basemetals:electrum_blend>, [<basemetals:electrum_ingot>]);
-//recipes.addShapeless(<basemetals:invar_blend>, [<basemetals:invar_ingot>]);
-//recipes.addShapeless(<basemetals:pewter_powder>, [<basemetals:pewter_ingot>]);
-//recipes.addShapeless(<basemetals:steel_blend>, [<basemetals:steel_ingot>]);
-//recipes.addShapeless(<basemetals:adamantine_powder>, [<basemetals:adamantine_ingot>]);
-//recipes.addShapeless(<basemetals:coldiron_powder>, [<basemetals:coldiron_ingot>]);
-//recipes.addShapeless(<basemetals:platinum_powder>, [<basemetals:platinum_ingot>]);
-//recipes.addShapeless(<basemetals:starsteel_powder>, [<basemetals:starsteel_ingot>]);
-//recipes.addShapeless(<basemetals:aquarium_powder>, [<basemetals:aquarium_ingot>]);
-//recipes.addShapeless(<basemetals:mithril_powder>, [<basemetals:mithril_ingot>]);
-
 //Crackhammers literally double metals. They must not be cheap.
 mods.jei.JEI.removeAndHide(<basemetals:wood_crackhammer>);
 mods.jei.JEI.removeAndHide(<basemetals:stone_crackhammer>);
@@ -135,3 +110,10 @@ recipes.addShapeless(<forestry:digger_bag>,[<forestry:adventurer_bag>,<ore:stone
 recipes.addShapeless(<forestry:forester_bag>,[<forestry:adventurer_bag>,<ore:logWood>,<ore:logWood>]);
 recipes.addShapeless(<forestry:hunter_bag>,[<forestry:adventurer_bag>,<minecraft:feather>,<minecraft:feather>]);
 recipes.addShapeless(<forestry:builder_bag>,[<forestry:adventurer_bag>,<minecraft:clay_ball>,<minecraft:clay_ball>]);
+
+//Adding a recipe to turn gravel into cobblestone. An attempt at making crafting work without immediately getting a pickaxe.
+recipes.addShapeless(<minecraft:cobblestone>,[<minecraft:gravel>,<minecraft:gravel>,<minecraft:gravel>,<minecraft:gravel>]);
+
+//Removing all mold recipes because they cause huge lag when crafting. Since foundry is useless without them, it is removed too.
+mods.jei.JEI.removeAndHide(<expindustry:casting_mold>);
+mods.jei.JEI.removeAndHide(<expindustry:machine_foundry>);
