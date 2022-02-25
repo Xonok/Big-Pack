@@ -117,3 +117,12 @@ recipes.addShapeless(<minecraft:cobblestone>,[<minecraft:gravel>,<minecraft:grav
 //Removing all mold recipes because they cause huge lag when crafting. Since foundry is useless without them, it is removed too.
 mods.jei.JEI.removeAndHide(<expindustry:casting_mold>);
 mods.jei.JEI.removeAndHide(<expindustry:machine_foundry>);
+
+//Pam water from clay buckets
+recipes.addShapeless(<harvestcraft:freshwateritem>*8, [<claybucket:claybucket:1>.transformReplace(<claybucket:claybucket>)]);
+//Make seared bricks harder to produce
+mods.tconstruct.Melting.removeRecipe(<liquid:stone>, <minecraft:stone>);
+mods.tconstruct.Melting.removeRecipe(<liquid:stone>, <minecraft:cobblestone>);
+recipes.remove(<tconstruct:soil>);
+recipes.addShapeless(<tconstruct:soil>,[<minecraft:gravel>,<minecraft:sand>,<minecraft:clay_ball>,<ore:dustQuartz>]);
+recipes.addShapeless(<tconstruct:soil>,[<minecraft:gravel>,<minecraft:sand>,<minecraft:clay_ball>,<ore:dustCertusQuartz>]);
